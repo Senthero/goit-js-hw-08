@@ -1,0 +1,199 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* =   Task-1   =*/
+#categories {
+  width: 392px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.item {
+  border-radius: 8px;
+  background-color: rgb(246, 246, 254);
+  padding: 16px;
+  letter-spacing: 0.04em;
+}
+
+.item h2 {
+  margin-bottom: 16px;
+}
+
+.item ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.item>ul>li {
+  padding: 8px 16px;
+  border: 1px solid rgb(128, 128, 128);
+  border-radius: 4px;
+}
+/*   =======   */
+
+/* =   Task-2   =*/
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+/*   =======   */
+
+/* =   Task-3   =*/
+#name-input {
+  padding: 8px 16px;
+  border: 1px solid rgb(128, 128, 128);
+  border-radius: 4px;
+  margin: 16px 0 16px;
+}
+/*   =======   */
+
+/* =   Task-4   =*/
+.login-form {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  max-width: 408px;
+  gap: 8px;
+}
+
+.login-form input {
+  width: 100%;
+  border: 1px solid rgb(128, 128, 128);
+  border-radius: 4px;
+  padding: 8px 16px;
+}
+
+.login-form input:hover {
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.login-form input:focus {
+  outline: rgb(128, 128, 128);
+}
+
+.login-form>label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.login-form button {
+  display: flex;
+  margin-right: auto;
+  padding: 8px 16px;
+  border-radius: 8px;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  border: none;
+  background-color: rgb(78, 117, 255);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.login-form button:hover {
+  background-color: #6c8cff;
+}
+/*   =======   */
+
+/* =   Task-5   =*/
+
+.widget {
+  padding: 20px 20px 40px 20px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.widget button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.change-color {
+  display: flex;
+  margin-right: auto;
+  padding: 8px 16px;
+  border-radius: 8px;
+  color: #ffffff;
+  border: none;
+  background: rgb(78, 117, 255);
+}
+
+.widget p {
+  margin-bottom: 16px;
+}
+/*   =======   */
+
+/* =   Task-6   =*/
+#controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+#controls>input {
+  text-align: center;
+  min-width: 150px;
+}
+
+#controls>button {
+  width: 120px;
+  border-radius: 8px;
+  padding: 8px 16px;
+}
+
+button[data-create]:hover {
+  background-color: #4e75ff;
+}
+
+button[data-destroy]:hover {
+  background-color: #ff4e4e;
+}
+
+.box {
+  width: 30px;
+  height: 30px;
+}
+
+#boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+/*   =======   */
